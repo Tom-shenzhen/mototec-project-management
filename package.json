@@ -1,0 +1,41 @@
+
+
+{
+  "name": "mototec-project-management",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "nuxt": {
+    "devtools": {
+      "enabled": true
+    },
+    "modules": [
+      "@element-plus/nuxt",
+      "@nuxtjs/tailwindcss",
+      "@pinia/nuxt"
+    ],
+    "runtimeConfig": {
+      "public": {
+        "supabaseUrl": "https://ytgkpukabphhknghagso.supabase.co",
+        "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl0Z2twdWthYnBoaGtuZ2hhZ3NvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA0OTU2NjYsImV4cCI6MjA0NjA3MTY2Nn0.oF6F-C59B0c2aA7zQc-Yy_hA-aVbrn-aX-m3b-v5f-A"
+      }
+    }
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@element-plus/nuxt": "latest",
+    "@nuxtjs/tailwindcss": "latest",
+    "@pinia/nuxt": "latest",
+    "@supabase/supabase-js": "latest",
+    "element-plus": "latest",
+    "nuxt": "latest",
+    "pinia": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
